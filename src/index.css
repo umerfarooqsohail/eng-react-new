@@ -104,9 +104,12 @@
         font-size: 28px;
     }
     #header .header_img img{
-        width: 70%;
+        width: 90%;
         
     } 
+    .animated{
+        height: 150px;
+    }
 }
 .btnmargin{
     margin-bottom: 20px!important;

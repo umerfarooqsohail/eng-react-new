@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom';
 const Common =(props)=>{
     return(
     <>
-    <section id="header" className=" d-flex align-items-center justify-content-center">
+    <section id="header" className="height-100vh d-flex align-items-center justify-content-center">
     <div className="container-fluid ">
         <div className="row">
             <div className="col-10 mx-auto">

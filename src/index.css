@@ -110,6 +110,9 @@
     .animated{
         height: 150px;
     }
+    .form-floating{
+        width: 100%!important;
+    }
 }
 .btnmargin{
     margin-bottom: 20px!important;

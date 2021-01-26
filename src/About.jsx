@@ -4,7 +4,7 @@ const About =()=>{
     return(
     <>
 <Common 
-           imgsrc="image/about.jpg"
+           imgsrc={process.env.PUBLIC_URL+"/image/about.jpg"}
            name="Welcome to About page"
            visit="/contact"
            btn="Contact us"

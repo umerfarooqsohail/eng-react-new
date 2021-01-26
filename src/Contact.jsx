@@ -78,7 +78,7 @@ const Contact =()=>{
            </div>
            </div>
          <label for="exampleFormControlInput1" className="form-label">Checked your skill:</label>
-           <div className="checkboxes d-inline-flex">
+           <div className="checkboxes d-inline-flex flex-wrap">
            <div className="form-check ms-4">
              <input className="form-check-input" type="checkbox" name="lan1"  checked={data.lan1} onChange={inputevent} id="flexCheckDefault"/>
              <label className="form-check-label" for="flexCheckDefault">
@@ -133,7 +133,7 @@ const Contact =()=>{
             </div>
             <div className="mb-3">
               <label for="exampleFormControlTextarea1" className="form-label">Write to us</label>
-              <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name="msg" value={data.msg} onChange={inputevent} required></textarea>
+              <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name="msg" value={data.msg} onChange={inputevent} placeholder="Comments" required></textarea>
            </div>
             <div className="col-12">
               <button className="btn btn-outline-primary mr=3 btnmargin" type="submit">Submit form</button>

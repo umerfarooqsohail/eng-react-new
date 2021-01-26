@@ -15,7 +15,7 @@ const Common =(props)=>{
                         Weare the team of talented developers to build websites
                     </h2>
                     <div >
-                        <NavLink to={props.visit} className="btn-get-started">{props.btn}</NavLink>
+                        <NavLink to={props.visit} className="btnmargin btn-get-started">{props.btn}</NavLink>
                     </div>
                 
                 </div>
